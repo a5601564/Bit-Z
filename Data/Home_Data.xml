@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Home>
+    <!-- 轮播图 -->
+    <slideshow>
+        <slideshow_01>.//*[@id='bannerCtrl']/li[1]/a</slideshow_01>
+        <slideshow_02>.//*[@id='bannerCtrl']/li[2]/a</slideshow_02>
+    </slideshow>
+    <!-- 币种 -->
+    <currency>
+        <!-- 币种名称-->
+        <currency_01>html/body/div[3]/div[1]/ul/li[1]/div[1]/div/h3</currency_01>
+        <!--最高价-->
+        <currency_02>html/body/div[3]/div[1]/ul/li[1]/div[3]/div[1]/h4</currency_02>
+        <!--场外交易最高价-->
+        <trade_btc_name>html/body/div[2]/div[2]/div[1]/div[2]/div/div[1]/a/div[1]</trade_btc_name>
+        <trade_btc_value>.//*[@id='btcCoin']</trade_btc_value>
+        <!--LSK最新信息名称-->
+        <hq_item_title>.//*[@id='otherCoin0']/div[1]</hq_item_title>
+        <!--LSK币种最新价格-->
+        <price_new>.//*[@id='otherCoin0']/div[2]/span</price_new>
+        <!--MZC信息-->
+        <mzc_data>.//*[@id='otherCoin1']/div[1]</mzc_data>
+        <!--MZC价格-->
+        <mzc_price>.//*[@id='otherCoin1']/div[2]/span</mzc_price>
+        <!--点击首页场外交易BTC价格按钮-->
+        <BTC_tap>html/body/div[2]/div[2]/div[1]/div[2]/div/div[1]</BTC_tap>
+        <!--点击币种1按钮-->
+        <curr1_NewPrice>html/body/div[2]/div[2]/div[1]/div[2]/div/div[3]</curr1_NewPrice>
+        <!--点击币种2按钮-->
+        <curr2_NewPrice>html/body/div[2]/div[2]/div[1]/div[2]/div/div[5]</curr2_NewPrice>
+
+    </currency>
+    <title>
+
+    </title>
+</Home><
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SigUp>
+
+    <ElementValue>
+        <!--姓 ID-->
+        <first_name>hdnav_regist</first_name>
+        <!--名 ID-->
+        <last_name>last_name</last_name>
+        <!-- 国家 ID-->
+        <country>country</country>
+        <!--手机号ID-->
+        <phone>mo</phone>
+        <!--邮箱 ID -->
+        <eamil>email</eamil>
+        <!--登录密码 ID-->
+        <password>pwd</password>
+        <!--确认密码 ID-->
+        <repawd>repwd</repawd>
+        <!--邀请码 ID-->
+        <InvitationCode>pid</InvitationCode>
+        <!--图形验证码 ID-->
+        <terms>captcha</terms>
+        <!--用户协议 ID-->
+        <agreement>reg_agck</agreement>
+        <!-- 注册 ID-->
+        <register>reg_btn</register>
+    </ElementValue>
+    <ParameterText>
+        <!--姓 ID-->
+        <first_name>彭</first_name>
+        <!--名 ID-->
+        <last_name>磊</last_name>
+        <!-- 国家 ID-->
+        <country>cn</country>
+        <!--登录密码 ID-->
+        <password>qwerqwer</password>
+        <!--确认密码 ID-->
+        <repawd>qwerqwer</repawd>
+        <!--邀请码 ID-->
+        <InvitationCode>xxxx</InvitationCode>
+        <!--图形验证码 ID-->
+        <terms>xxxx</terms>
+    </ParameterText>
+</SigUp>

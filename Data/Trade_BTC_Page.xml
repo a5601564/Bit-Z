@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Trade_BTC>
+    <!--我的订单-->
+    <My_order>
+        <!--页面文字  My Order -->
+        <act_my_order>html/body/div[2]/div[2]/a</act_my_order>
+    </My_order>
+    <!--出售BTC-->
+    <Sell_BTC>
+
+    </Sell_BTC>
+    <!--购买BTC-->
+    <Buy_BTC>
+
+    </Buy_BTC>
+</Trade_BTC>

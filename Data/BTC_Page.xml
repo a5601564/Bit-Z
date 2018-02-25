@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<BTC_Page>
+    <Text>
+        <!--比特币（BTC）最新交易动态-->
+        <BtcTitleName>比特币（BTC）最新交易动态</BtcTitleName>
+        <!--最新价-->
+        <!--最高价-->
+        <!--最低价-->
+        <!--涨跌幅-->
+        <!--24小时成交量-->
+    </Text>
+    <Element>
+        <!--比特币（BTC）最新交易动态-->
+        <BtcElementText>.//*[@id='trendsCon']/div/div[1]</BtcElementText>
+        <!--最新价-->
+        <newPrice>.//*[@id='trendsCon']/div/div[2]</newPrice>
+        <!--最高价-->
+        <highPrice>.//*[@id='trendsCon']/div/div[3]</highPrice>
+        <!--最低价-->
+        <lowPrice>.//*[@id='trendsCon']/div/div[4]</lowPrice>
+        <!--涨跌幅-->
+        <chg>.//*[@id='trendsCon']/div/div[5]</chg>
+        <!--24小时成交量-->
+        <tradeNum>.//*[@id='trendsCon']/div/div[6]</tradeNum>
+    </Element>
+</BTC_Page>

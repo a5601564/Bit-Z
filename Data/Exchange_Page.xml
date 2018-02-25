@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Exchange>
+
+    <!--币种列表-->
+    <Markets>
+
+        <Markets_name>html/body/div[2]/div[2]/div[1]/div[1]/h2</Markets_name>
+
+    </Markets>
+
+
+</Exchange>

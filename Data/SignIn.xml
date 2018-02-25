@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SignIn>
+    <ElementValue>
+        <!--用户名邮箱 ID-->
+        <email>lg_myem</email>
+        <!--密码 ID-->
+        <password>lg_mypsw</password>
+        <!--登录按钮 ID-->
+        <signinbutton>lg_btn</signinbutton>
+        <!--忘记密码 ID-->
+        <forgotpwd>lg_forgot</forgotpwd>
+        <!--注册 ID-->
+        <signup>lg_creat</signup>
+    </ElementValue>
+
+    <ParameterText>
+        <!--用户名邮箱 ID-->
+        <email>xxx</email>
+        <!--密码 ID-->
+        <password>xxxx</password>
+
+    </ParameterText>
+</SignIn>
