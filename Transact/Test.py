@@ -19,8 +19,8 @@ params['tradepwd'] = 'qwerqwer'
 params = sorted(params.items(),key=lambda params:params[0])
 # print params
 params = dict(params)
-print params
-print urllib.urlencode(params)
+print(params)
+print( urllib.parse.urlencode(params))
 
-print Bit_ZAPI().signature(Path=path,Secret=secret,Params=params)
+print( Bit_ZAPI().signature(Path=path,Secret=secret,Params=params))
 

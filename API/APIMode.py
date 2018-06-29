@@ -43,6 +43,6 @@ class Bit_ZAPI(object):
             reValue = requests.post(self.url+self.path, Params, timeout=30,verify = False)
             return reValue.json()
         except requests.exceptions.ConnectionError as e:
-            print "No response"
+            print( "No response")
 
 

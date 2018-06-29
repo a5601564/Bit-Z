@@ -26,5 +26,5 @@ data = sign + Secret
 
 params['sign'] = hashlib.md5(data.encode("utf8")).hexdigest().lower()
 reValue = requests.post(url,params,timeout=30)
-print url,params
+print( url,params)
 print(reValue.json())
